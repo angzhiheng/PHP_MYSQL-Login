@@ -1,0 +1,181 @@
+body {
+
+    background-image: url(svg/protruding-squares.svg);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+    overflow-x: hidden;
+
+}
+
+*{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    box-sizing: padding-box;
+
+}
+
+form {
+
+    width: 90vw;
+
+    max-width: 25vw;
+
+    min-width: 45vw;
+
+    border: 3px solid rgb(177, 142, 142);
+
+    padding: 20px;
+
+    background: rgb(255, 255, 255);
+
+    opacity: 0.8;
+
+    border-radius: 20px;
+
+}
+
+
+h2, logintxt {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+input {
+
+    display: block;
+
+    border: 2px solid #ccc;
+
+    width: 80vw;
+
+    max-width: 24vw;
+
+    min-width: 44vw;
+
+    padding: 10px;
+
+    padding-right: 0px;
+
+    margin: 10px auto;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: #888;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(223, 65, 65);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+
+    background: rgb(241, 115, 115);
+    cursor: pointer;
+
+}
+
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 80vw;
+
+   max-width: 24vw;
+
+   min-width: 44vw;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+
+    float: right;
+
+    background: rgb(245, 117, 94);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+    width: 15vw;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
+
+.back{
+    display: inline;
+    float: left;
+    height: 2rem;
+    width: 2rem;
+    background-color:white ;
+
+}
+
+.pback{
+    display: inline;
+    float: right;
+}
